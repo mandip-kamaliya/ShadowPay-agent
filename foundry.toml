@@ -4,7 +4,11 @@ out = "out"
 libs = ["lib"]
 evm_version = "istanbul"
 solc_version = "0.8.27"
-remappings = ["forge-std/=lib/forge-std/src/"]
+remappings = [
+    "forge-std/=lib/forge-std/src/",
+    "@skalenetwork/bite-solidity/=lib/bite-solidity/contracts/",
+    "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/"
+]
 
 [rpc_endpoints]
 skale = "https://base-sepolia-testnet.skalenodes.com/v1/bite-v2-sandbox-2"
