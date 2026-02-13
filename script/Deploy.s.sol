@@ -6,10 +6,9 @@ import "../src/PrivateShop.sol";
 
 contract Deploy is Script {
     function run() external {
-        uint256 deployerPrivateKey = vm.envUint("PRIVATE_KEY");
         address usdcAddress = 0xc4083B1E81ceb461Ccef3FDa8A9F24F0d764B6D8;
         
-        vm.startBroadcast(deployerPrivateKey);
+        vm.startBroadcast();
 
         PrivateShop shop = new PrivateShop(usdcAddress);
         
