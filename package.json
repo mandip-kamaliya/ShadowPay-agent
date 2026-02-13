@@ -1,0 +1,28 @@
+{
+  "name": "shadowpay-agent",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mandip-kamaliya/ShadowPay-agent.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mandip-kamaliya/ShadowPay-agent/issues"
+  },
+  "homepage": "https://github.com/mandip-kamaliya/ShadowPay-agent#readme",
+  "description": "",
+  "dependencies": {
+    "@skalenetwork/bite": "^0.7.1",
+    "ethers": "^6.16.0",
+    "express": "^5.2.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
